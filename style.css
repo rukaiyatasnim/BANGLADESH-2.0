@@ -217,3 +217,75 @@
   font-weight: 600;
   font-size: 20px;
 }
+/* Opinion Part Start */
+/* Opinion Part End */
+
+/* Recent News Start */
+.News {
+  margin: 0 auto;
+  width: 77%;
+}
+.News-header {
+  font-weight: 700;
+  font-family: 40px;
+  color: hsla(0, 0%, 5%, 1);
+}
+.News-text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.7);
+}
+/* Recent News End */
+.news-boxes {
+  margin: 0 auto;
+  width: 77%;
+}
+.box1 , .box2 , .box3 {
+  margin-top: 15px;
+  border-radius: 24px;
+  padding: 48px;
+  background-color: wheat;
+  display: flex;
+  gap: 30px;
+}
+.box-img {
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+  margin-top: 48px;
+  margin-left: 48px;
+}
+.box-text {
+  margin-top: 48px;
+}
+.box-header {
+  font-weight: 700;
+  font-family: 32px;
+  color: hsla(0, 0%, 5%, 0.8);
+  /* margin-top: 15px; */
+}
+.box-time {
+  margin-top: 5px;
+  display: flex;
+  font-weight: 400;
+  font-family: 14px;
+  text-align: left;
+  color: hsla(0, 0%, 5%, 0.7);
+}
+.box-description {
+  color: hsla(0, 0%, 5%, 0.7);
+  font-weight: 400;
+  font-family: 16px;
+  margin-top: 10px;
+}
+.box-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: hsla(0, 0%, 101%, 1);
+  background-color: hsla(165, 100%, 21%, 1);
+  border-radius: 8px;
+  padding: 13px 26px;
+  border: none;
+  margin-top: 50px;
+}
