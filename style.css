@@ -129,3 +129,91 @@
   padding: 24px;
   box-shadow: 2px 2px 2px #888888;
 }
+
+/* The Vision of Future Part Start */
+
+.vision {
+  margin: 0 auto;
+  width: 77%;
+}
+.vision-main-head {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+}
+.vision-main-text {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  color: hsla(0, 0%, 5%, 0.7);
+}
+.vision-boxes {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.vision-box1 {
+  background-color: hsla(217, 88%, 65%, 0.2);
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-box2 {
+  background-color: hsla(152, 35%, 83%, 1);
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-box3 {
+  background-color: hsla(41, 71%, 89%, 1);
+  padding: 32px;
+  border-radius: 16px;
+}
+/* Shared for vision */
+.vision-head {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: hsla(0, 0%, 5%, 0.8);
+}
+.vision-text {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.7);
+}
+.vision-btn {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  /* color: hsla(0, 0%, 101%, 1); */
+}
+
+/* Special Quote Part Start */
+.quote {
+  margin: 0 auto;
+  width: 77%;
+  margin-top: 30px;
+  padding: 48px, 24px, 48px, 24px;
+  border-radius: 16px;
+  background-color: yellowgreen;
+}
+
+.quote-text {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.8);
+}
+.quote-name {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
