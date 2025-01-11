@@ -53,7 +53,11 @@ body {
   border-radius: 8px;
   border: none;
   color: rgb(0, 106, 80);
-  background-color: white;
+  background:color: white;
+}
+.sign-btn:hover{
+      background-color:white;
+      transition: 0.9s;
 }
 
 .banner {
@@ -193,6 +197,7 @@ body {
   color: white;
   border-radius: 8px;
   border: none;
+
   /* color: hsla(0, 0%, 101%, 1); */
 }
 
@@ -207,6 +212,7 @@ body {
 }
 
 .quote-text {
+  margin-top: 5px;
   margin-bottom: 10px;
   font-weight: 400;
   font-size: 16px;
@@ -382,7 +388,7 @@ select {
   display: flex;
   gap: 30px;
 }
-.donate-box1 {
+.donate-box {
   font-weight: 700;
   font-size: 40px;
   color: hsla(0, 0%, 5%, 0.8);
@@ -393,6 +399,9 @@ select {
   background-color: white;
   display: flex;
   gap: 30px;
+}
+.donate-box:hover{
+  background-color: antiquewhite;
 }
 
 .text-line {
@@ -499,4 +508,35 @@ select {
 }
 .foot-tags {
   margin-bottom: 12px;
+}
+
+
+/* Button Hover */
+.button:hover{
+  background-color: hsla(165, 100%, 21%, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+.footer {
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 50px 160px;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+}
+
+.logo-container {
+  margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
