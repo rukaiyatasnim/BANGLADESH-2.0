@@ -112,7 +112,7 @@ body {
 }
 
 .pillar-contents {
-  width: 100%;
+  /* width: 100%; */
   height: 244px;
   display: flex;
   justify-content: center;
@@ -218,7 +218,73 @@ body {
   font-size: 20px;
 }
 /* Opinion Part Start */
+.opinion {
+  margin: 0 auto;
+  width: 77%;
+  margin-top: 80px;
+  /* background-color: white; */
+}
+.opinion-header {
+  font-weight: 700;
+  font-size: 40px;
+}
+.Opinion-data {
+  margin: 0 auto;
+  background-color: white;
+}
 /* Opinion Part End */
+.opinion-section {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+.opinion-que {
+  border: 1px solid gray;
+}
+table {
+  width: 100%;
+}
+.main-opinion {
+  padding: 32px, 32px, 32px, 32px;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: hsla(152, 35%, 83%, 1);
+  padding: 24px, 24px, 24px, 24px;
+  height: 72px;
+}
+.th-text {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  border: 1px solid hsla(0, 0%, 101%, 0.1);
+  padding: 10px;
+}
+
+td {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 24px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: hsla(152, 35%, 83%, 1);
+}
+select {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 14px;
+  color: hsla(0, 0%, 5%, 1);
+}
+
+/* Opinion Part ENDS */
 
 /* Recent News Start */
 .News {
@@ -226,6 +292,7 @@ body {
   width: 77%;
 }
 .News-header {
+  margin-top: 20px;
   font-weight: 700;
   font-family: 40px;
   color: hsla(0, 0%, 5%, 1);
@@ -254,7 +321,7 @@ body {
   gap: 30px;
 }
 .box-img {
-  border-radius: 24px;
+  
   width: 408px;
   height: 306px;
   margin-top: 48px;
@@ -323,7 +390,7 @@ body {
   margin-top: 15px;
   border-radius: 24px;
   padding: 48px;
-  background-color: wheat;
+  background-color: white;
   display: flex;
   gap: 30px;
 }
@@ -352,13 +419,13 @@ body {
   margin-top: 32px;
 }
 .Newsletter {
-  width: 1200px;
-  height: 300px;
+  width: 1280px;
+  height: 395px;
   background-color: hsla(152, 35%, 83%, 1);
   padding: 80px, 100px, 80px, 100px;
   border-radius: 24px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 90px;
   text-align: center;
 }
 .main-letter {
@@ -367,8 +434,7 @@ body {
   padding: 18px 40px;
 }
 .main-head-newsletter {
-  display: flex;
-  justify-content: center;
+  margin-top: 60px;
 }
 .header-newsletter {
   font-family: 40px;
@@ -376,6 +442,7 @@ body {
   color: hsla(0, 0%, 5%, 1);
 }
 .text-newsletter {
+  margin-top: 16px;
   font-weight: 400;
   font-size: 16px;
   color: hsla(0, 0%, 5%, 0.7);
@@ -384,7 +451,7 @@ body {
   display: flex;
 }
 .letter-input {
-  margin-top: 60px;
+  margin-top: 22px;
   margin-left: 200px;
   border: none;
   border-top-left-radius: 8px;
@@ -406,30 +473,30 @@ body {
   font-size: 18px;
   background-color: hsla(165, 100%, 21%, 1);
   color: hsla(0, 0%, 101%, 1);
-  margin-top: 60px;
+  margin-top: 22px;
 }
+
 .spam-text {
-  margin-top: 25px;
+  margin-top: 30px;
   font-weight: 400;
   font-size: 16px;
   color: hsla(0, 0%, 5%, 0.7);
 }
 .foot {
-  margin-top: 80px;
-  width: 100%;
-  text-align: center;
+  margin-top: 32px;
+  height: 226px;
+  width: 1600px;
   padding: 50px, 160px, 50px, 160px;
-  background-color: wheat;
+  background-color: hsla(0, 0%, 101%, 1);
+}
+.foot-contents {
+  text-align: center;
 }
 .foot-head {
   font-weight: 700;
   font-size: 32px;
-  color: hsla(0, 0%, 5%, 1);
+  margin-left: 0 auto;
 }
-.tags {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 30px;
+.foot-tags {
+  margin-bottom: 12px;
 }
